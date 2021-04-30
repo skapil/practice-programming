@@ -1,3 +1,6 @@
+import time
+
+
 def brute_force(arr: list, target: int) -> tuple:
     for slow_index in range(len(arr)):
         for fast_index in range(slow_index + 1, len(arr)):

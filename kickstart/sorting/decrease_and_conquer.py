@@ -1,3 +1,6 @@
+import time
+
+
 def decrease_and_conquere(arr: list, target: int) -> tuple:
     for slow_index in range(len(arr)):
         for back_index in range(len(arr) - 1, slow_index, -1):
